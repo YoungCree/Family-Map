@@ -1,0 +1,249 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:columnCount="10"
+    android:rowCount="24">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="9"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/LifeStoryLinesText"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/LifeStoryLinesSwitch"
+        android:layout_rowSpan="2"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center_vertical"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="9"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:text="@string/LifeStoryInfoText"
+        android:textStyle="normal" />
+
+    <View style="@style/Divider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="9"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:text="@string/FamTreeLinesText"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/FamTreeLinesSwitch"
+        android:layout_rowSpan="2"
+        android:layout_columnSpan="1"
+        android:paddingRight="5dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="9"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:text="@string/FamTreeInfoText"
+        android:textStyle="normal" />
+
+    <View style="@style/Divider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="9"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:text="@string/SpouseLinesText"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/SpouseLinesSwitch"
+        android:layout_rowSpan="2"
+        android:layout_columnSpan="1"
+        android:paddingRight="5dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="9"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:text="@string/SpouseInfoText"
+        android:textStyle="normal" />
+
+    <View style="@style/Divider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="9"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:text="@string/FatherSideText"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/FatherSideSwitch"
+        android:layout_rowSpan="2"
+        android:layout_columnSpan="1"
+        android:paddingRight="5dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="9"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:text="@string/FatherInfoText"
+        android:textStyle="normal" />
+
+    <View style="@style/Divider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="9"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:text="@string/MotherSideText"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/MotherSideSwitch"
+        android:layout_rowSpan="2"
+        android:layout_columnSpan="1"
+        android:paddingRight="5dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="9"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:text="@string/MotherInfoText"
+        android:textStyle="normal" />
+
+    <View style="@style/Divider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="9"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:text="@string/MaleEventText"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/MaleEventSwitch"
+        android:layout_rowSpan="2"
+        android:layout_columnSpan="1"
+        android:paddingRight="5dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="9"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:text="@string/GenderInfoText"
+        android:textStyle="normal" />
+
+    <View style="@style/Divider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="9"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:text="@string/FemaleEvent"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/FemaleEventSwitch"
+        android:layout_rowSpan="2"
+        android:layout_columnSpan="1"
+        android:paddingRight="5dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="9"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:text="@string/GenderInfoText"
+        android:textStyle="normal" />
+
+    <View style="@style/Divider"
+        android:layout_marginBottom="0dp" />
+
+    <LinearLayout
+        android:id="@+id/LogoutLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="2"
+        android:layout_columnSpan="10"
+        android:layout_gravity="fill_horizontal"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/LogoutTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="fill_horizontal"
+            android:text="@string/LogoutText"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/LogoutInfoText"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <View style="@style/Divider"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="10" />
+</GridLayout>

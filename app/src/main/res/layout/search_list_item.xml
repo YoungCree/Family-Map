@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent" >
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center|center_vertical"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="2"
+        android:paddingLeft="5dp"
+        android:id="@+id/listMarkerImageSearch" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/liftListItemSearch"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:layout_columnSpan="14"
+        android:layout_rowSpan="1"
+        app:layout_constraintLeft_toRightOf="@id/listMarkerImageSearch"
+        android:paddingLeft="50dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lifeListItemNameSearch"
+        android:paddingTop="35dp"
+        android:paddingBottom="5dp"
+        android:layout_columnSpan="14"
+        android:layout_rowSpan="1"
+        app:layout_constraintLeft_toRightOf="@id/listMarkerImageSearch"
+        android:paddingLeft="50dp" />
+    <View style="@style/Divider"
+        android:paddingTop="45dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

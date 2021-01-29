@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ActivitiesAndFrags.PersonActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:stretchColumns="1" >
+        <TableRow>
+            <TextView
+                android:id="@+id/FirstNameView"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/PersonDetailsFirstName"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/PersonDetailsFirstNameDesc"
+                android:textStyle="normal" />
+        </TableRow>
+        <TableRow>
+            <View
+                style="@style/Divider"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="fill_horizontal" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/LastNameView"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:text="@string/PersonDetailsLastName"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/PersonDetailsLastNameDesc"
+                android:textStyle="normal" />
+        </TableRow>
+        <TableRow>
+            <View
+                style="@style/Divider"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="fill_horizontal" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/GenderVeiw"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:text="@string/PersonDetailsGender"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/PersonDetailsGenderDesc"
+                android:textStyle="normal" />
+        </TableRow>
+        <TableRow>
+            <View
+                style="@style/Divider"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="fill_horizontal" />
+        </TableRow>
+    </TableLayout>
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ExpandListLifeEvents" />
+
+</LinearLayout>

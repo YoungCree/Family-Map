@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitiesAndFrags.MapFragment">
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@id/mapTextView"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/map" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/mapTextView"
+        android:layout_margin="8dp"
+        android:paddingLeft="48dp"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/mapFragmentMessage"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_margin="8dp"
+        android:paddingBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/genderImage"/>
+
+</RelativeLayout>
